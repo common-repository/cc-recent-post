@@ -1,0 +1,62 @@
+/**
+* cc-recent-post.css
+* @package cc-recent-post
+*/
+.wrapper {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.cc-recent-post {
+	list-style: none;
+	padding-left: 0px;
+}
+.cc-recent-post li {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-bottom: 7px;
+}
+.ccrp-img,
+.ccrp-link {
+	display: inline-block;
+	float: left;
+}
+.ccrp-img {
+	width: 50px;
+	height: 50px;
+}
+.ccrp-img img {
+	width: 100%;
+	height: 100%;
+	/*border-radius: 50% 50%;*/
+}
+.ccrp-img-hide {
+	display: none;
+}
+.ccrp-link {
+	width: 75%;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.ccrp-link a {
+	display: block;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+
+.ccrp-link span {
+	display: block;
+	border-top: 1px solid #e7e7e7;
+	font-size: 13px;
+	padding-top: 7px;
+	margin-top: 5px;
+}
+.ccrp-comment-count {
+	border: 1px solid;
+	position: relative;
+	height: 25px;
+}
